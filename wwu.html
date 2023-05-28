@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Work with Us</title>
+        <link rel="icon" type="image/x-icon" sizes="16x16" href="img/favicon.ico">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/styles-wwu.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="box">
+            <header>
+                <h1><img src="img/pngegg 2.png" alt="H-M-N CORP."></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>  
+
+        <main>
+            <fieldset>
+                <form>
+                    
+                    <input type="text" id="nombre" class="input-bydefect" placeholder="Name" required>
+                           
+                    <input type="text" id="apellido" class="input-bydefect" placeholder="Surname" required>
+                      
+                    <input type="email" id="email" class="input-bydefect" placeholder="E-mail" required>
+                            
+                    <input type="tel" id="telefono" class="input-bydefect" placeholder="Phone number" required>
+                 
+                    <textarea cols="100" rows="7" id="mensaje" class="input-bydefect" placeholder="Tell us briefly about you"></textarea>
+                    <section >
+                        <legend>What time?</legend>
+                        <select>
+                            <option>Morning</option>
+                            <option>Afternoon</option>
+                            <option>Night</option>
+                        </select>
+                  
+                        <legend class="legend">How do you prefer to be contacted?</legend>
+                        <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email" tabindex="1">E-mail</label>
+                        <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone" tabindex="2"  >Phone</label>
+                        <label for="radio-sms"><input type="radio" name="contact" value="sms" id="radio-sms" tabindex="3" checked>SMS</label>   
+                           
+                        <label for="myFile" class="message-box">Upload your CV</label>
+                        <input type="file" id="myFile">
+                        <input type="submit" value="SUBMIT" class="send-button">
+                    </section>        
+                </form>
+            </fieldset>
+        </main>
+    </body>
+
+    
+    <footer>  
+        <img src="img/pngegg 2.png">
+        <p class="copyright">© Copyright Hasumi Mishima Natsuki Corp. - 2022</p>
+    </footer>
+
+</html>
